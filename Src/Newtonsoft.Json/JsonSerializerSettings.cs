@@ -319,7 +319,7 @@ namespace Newtonsoft.Json
             set
             {
                 _dateFormatString = value;
-                _dateFormatStringSet = true;
+                _dateFormatStringSet = value != null;
             }
         }
 
